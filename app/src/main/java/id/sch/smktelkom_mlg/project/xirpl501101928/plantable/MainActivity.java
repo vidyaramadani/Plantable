@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
 import android.support.design.widget.Snackbar;
+import android.support.v4.app.FragmentManager;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -12,6 +13,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -35,7 +37,7 @@ public class MainActivity extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
-        drawer.setDrawerListener(toggle);
+        drawer.addDrawerListener(toggle);
         toggle.syncState();
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
@@ -80,17 +82,38 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        if (id == R.id.nav_menu) {
+            MenuFragment menuFragment = new MenuFragment();
+            FragmentManager manager = getSupportFragmentManager();
+            manager.beginTransaction().replace(R.id.relativelayout_for_fragment, menuFragment,
+                    menuFragment.getTag()).commit();
+        } else if (id == R.id.nav_alarm) {
+            Toast.makeText(this, "Hai Kiki Cantik", Toast.LENGTH_SHORT).show();
+            AlarmFragment alarmFragment = AlarmFragment.newInstance("some1", "some2");
+            FragmentManager manager = getSupportFragmentManager();
+            manager.beginTransaction().replace(R.id.relativelayout_for_fragment, alarmFragment,
+                    alarmFragment.getTag()).commit();
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.nav_sayur) {
+            Toast.makeText(this, "Ini sayur", Toast.LENGTH_SHORT).show();
+            SayurFragment sayurFragment = SayurFragment.newInstance("some3", "some4");
+            FragmentManager manager = getSupportFragmentManager();
+            manager.beginTransaction().replace(R.id.relativelayout_for_fragment, sayurFragment,
+                    sayurFragment.getTag()).commit();
 
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.nav_buah) {
+            Toast.makeText(this, "Ini buah", Toast.LENGTH_SHORT).show();
+            BuahFragment buahFragment = BuahFragment.newInstance("some5", "some6");
+            FragmentManager manager = getSupportFragmentManager();
+            manager.beginTransaction().replace(R.id.relativelayout_for_fragment, buahFragment,
+                    buahFragment.getTag()).commit();
 
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
+        } else if (id == R.id.nav_bunga) {
+            Toast.makeText(this, "Ini bunga", Toast.LENGTH_SHORT).show();
+            BungaFragment bungaFragment = BungaFragment.newInstance("some5", "some6");
+            FragmentManager manager = getSupportFragmentManager();
+            manager.beginTransaction().replace(R.id.relativelayout_for_fragment, bungaFragment,
+                    bungaFragment.getTag()).commit();
 
         }
 

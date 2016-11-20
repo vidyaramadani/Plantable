@@ -1,13 +1,93 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="id.sch.smktelkom_mlg.project.xirpl501101928.plantable.BuahFragment">
 
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/jeruk" />
+
+    <Button
+        android:id="@+id/btnjeruk"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:text="Ini buah" />
-</FrameLayout>
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="100dp"
+        android:text="Jeruk" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/semangka" />
+
+    <Button
+        android:id="@+id/btnsemangka"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="Semangka" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/pisang" />
+
+    <Button
+        android:id="@+id/btnpisang"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="100dp"
+        android:text="Pisang" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="150dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/lemon" />
+
+    <Button
+        android:id="@+id/btnlemon"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="250dp"
+        android:text="Lemon" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/strawberry" />
+
+    <Button
+        android:id="@+id/btnstrawberry"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:text="Strawberry" />
+
+
+</RelativeLayout>
+

@@ -32,7 +32,7 @@
 
     <Button
         android:id="@+id/btnsemangka"
-        android:layout_width="100dp"
+        android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="100dp"
@@ -82,11 +82,27 @@
 
     <Button
         android:id="@+id/btnstrawberry"
-        android:layout_width="100dp"
+        android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="250dp"
         android:text="Strawberry" />
+
+    <Button
+        android:id="@+id/btnanggur"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="250dp"
+        android:text="Anggur" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="400dp"
+        android:text="Belum" />
 
 
 </RelativeLayout>

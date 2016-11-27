@@ -62,6 +62,15 @@
         android:layout_marginTop="250dp"
         android:text="Button" />
 
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/matahari" />
+
     <Button
         android:id="@+id/btnmatahari"
         android:layout_width="100dp"

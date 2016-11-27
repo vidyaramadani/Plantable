@@ -32,7 +32,11 @@
         <activity android:name=".BlueberryActivity" />
         <activity android:name=".NanasActivity" />
         <activity android:name=".ManggaActivity" />
-        <activity android:name=".AnggurActivity"></activity>
+        <activity android:name=".AnggurActivity" />
+        <activity android:name=".MatahariActivity" />
+        <activity android:name=".KaktusActivity" />
+        <activity android:name=".MelatiActivity" />
+        <activity android:name=".TulipActivity"></activity>
     </application>
 
 </manifest>

@@ -68,10 +68,31 @@ public class BungaFragment extends Fragment {
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
 
-        getView().findViewById(R.id.btnjeruk).setOnClickListener(new View.OnClickListener() {
+        getView().findViewById(R.id.btnkaktus).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getActivity(), JerukActivity.class));
+                startActivity(new Intent(getActivity(), KaktusActivity.class));
+            }
+        });
+
+        getView().findViewById(R.id.btntulip).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(), TulipActivity.class));
+            }
+        });
+
+        getView().findViewById(R.id.btnmelati).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(), MelatiActivity.class));
+            }
+        });
+
+        getView().findViewById(R.id.btnmatahari).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(), MatahariActivity.class));
             }
         });
 

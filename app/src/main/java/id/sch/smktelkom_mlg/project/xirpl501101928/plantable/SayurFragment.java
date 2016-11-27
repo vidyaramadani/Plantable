@@ -1,7 +1,9 @@
 package id.sch.smktelkom_mlg.project.xirpl501101928.plantable;
 
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -60,6 +62,75 @@ public class SayurFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_sayur, container, false);
+    }
+
+    @Override
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+
+        getView().findViewById(R.id.btnbawang).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(), BawangActivity.class));
+            }
+        });
+
+        getView().findViewById(R.id.btnbayam).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(), BayamActivity.class));
+            }
+        });
+
+        getView().findViewById(R.id.btncabe).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(), CabeActivity.class));
+            }
+        });
+
+        getView().findViewById(R.id.btntomat).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(), TomatActivity.class));
+            }
+        });
+
+        getView().findViewById(R.id.btnkentang).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(), KentangActivity.class));
+            }
+        });
+
+        getView().findViewById(R.id.btntimun).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(), TimunActivity.class));
+            }
+        });
+
+        getView().findViewById(R.id.btnsawi).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(), SawiActivity.class));
+            }
+        });
+
+        getView().findViewById(R.id.btnterong).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(), TerongActivity.class));
+            }
+        });
+
+        getView().findViewById(R.id.btnwortel).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(), WortelActivity.class));
+            }
+        });
+
     }
 
 }

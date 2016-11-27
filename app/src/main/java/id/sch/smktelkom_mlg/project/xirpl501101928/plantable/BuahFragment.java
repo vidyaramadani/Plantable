@@ -87,17 +87,17 @@ public class BuahFragment extends Fragment {
             }
         });
 
-        getView().findViewById(R.id.btnpisang).setOnClickListener(new View.OnClickListener() {
+        getView().findViewById(R.id.btnblueberry).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getActivity(), PisangActivity.class));
+                startActivity(new Intent(getActivity(), BlueberryActivity.class));
             }
         });
 
-        getView().findViewById(R.id.btnlemon).setOnClickListener(new View.OnClickListener() {
+        getView().findViewById(R.id.btnnanas).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getActivity(), LemonActivity.class));
+                startActivity(new Intent(getActivity(), NanasActivity.class));
             }
         });
 
@@ -107,5 +107,36 @@ public class BuahFragment extends Fragment {
                 startActivity(new Intent(getActivity(), StrawberryActivity.class));
             }
         });
+
+        getView().findViewById(R.id.btnapel).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(), ApelActivity.class));
+            }
+        });
+
+        getView().findViewById(R.id.btnmangga).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(), ManggaActivity.class));
+            }
+        });
+
+
+        getView().findViewById(R.id.btnpisang).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(), PisangActivity.class));
+            }
+        });
+
+        getView().findViewById(R.id.btnanggur).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(), AnggurActivity.class));
+            }
+        });
+
+
     }
 }

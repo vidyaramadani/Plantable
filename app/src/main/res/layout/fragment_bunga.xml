@@ -1,13 +1,104 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="id.sch.smktelkom_mlg.project.xirpl501101928.plantable.BungaFragment">
 
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/kaktus" />
+
+    <Button
+        android:id="@+id/btnkaktus"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:text="Ini bunga" />
-</FrameLayout>
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="100dp"
+        android:text="KAKTUS" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/tulip" />
+
+    <Button
+        android:id="@+id/btntulip"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="TULIP" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/melati" />
+
+    <Button
+        android:id="@+id/btnmelati"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="100dp"
+        android:text="MELATI" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="250dp"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/btnmatahari"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:text="MATAHARI" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="250dp"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="400dp"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="400dp"
+        android:text="Button" />
+</RelativeLayout>

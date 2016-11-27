@@ -4,13 +4,12 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 
-public class LemonActivity extends AppCompatActivity {
+public class WortelActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_lemon);
-
+        setContentView(R.layout.activity_wortel);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
     }

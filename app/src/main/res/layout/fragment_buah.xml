@@ -7,7 +7,7 @@
 
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imagejeruk"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_alignParentLeft="true"
@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_marginTop="100dp"
-        android:text="Jeruk" />
+        android:text="JERUK" />
 
     <ImageView
         android:id="@+id/imageView5"
@@ -34,42 +34,43 @@
         android:id="@+id/btnsemangka"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="100dp"
-        android:text="Semangka" />
+        android:layout_alignLeft="@+id/btnstrawberry"
+        android:layout_alignStart="@+id/btnstrawberry"
+        android:layout_below="@+id/imageView5"
+        android:text="SEMANGKA" />
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/imageView17"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_alignParentRight="true"
         android:layout_weight="1"
-        app:srcCompat="@drawable/pisang" />
+        app:srcCompat="@drawable/bluberry" />
 
     <Button
-        android:id="@+id/btnpisang"
+        android:id="@+id/btnblueberry"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_marginTop="100dp"
-        android:text="Pisang" />
+        android:text="BLUEBERRY" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imageView20"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_alignParentLeft="true"
         android:layout_marginTop="150dp"
         android:layout_weight="1"
-        app:srcCompat="@drawable/lemon" />
+        app:srcCompat="@drawable/nanas" />
 
     <Button
-        android:id="@+id/btnlemon"
+        android:id="@+id/btnnanas"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_marginTop="250dp"
-        android:text="Lemon" />
+        android:text="NANAS" />
 
     <ImageView
         android:id="@+id/imageView7"
@@ -84,25 +85,73 @@
         android:id="@+id/btnstrawberry"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView7"
         android:layout_centerHorizontal="true"
+        android:text="STRAWBERRY" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="150dp"
+        app:srcCompat="@drawable/apel" />
+
+    <Button
+        android:id="@+id/btnapel"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
         android:layout_marginTop="250dp"
-        android:text="Strawberry" />
+        android:text="APEL" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="300dp"
+        app:srcCompat="@drawable/mangga" />
+
+    <Button
+        android:id="@+id/btnmangga"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="400dp"
+        android:text="MANGGA" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        app:srcCompat="@drawable/pisang" />
+
+    <Button
+        android:id="@+id/btnpisang"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:text="PISANG" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="300dp"
+        app:srcCompat="@drawable/anggur" />
 
     <Button
         android:id="@+id/btnanggur"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="250dp"
-        android:text="Anggur" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
         android:layout_marginTop="400dp"
-        android:text="Belum" />
+        android:text="ANGGUR" />
 
 
 </RelativeLayout>

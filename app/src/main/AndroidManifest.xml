@@ -18,8 +18,21 @@
         <activity android:name=".JerukActivity" />
         <activity android:name=".SemangkaActivity" />
         <activity android:name=".PisangActivity" />
-        <activity android:name=".LemonActivity" />
-        <activity android:name=".StrawberryActivity"></activity>
+        <activity android:name=".StrawberryActivity" />
+        <activity android:name=".ApelActivity" />
+        <activity android:name=".BawangActivity" />
+        <activity android:name=".BayamActivity" />
+        <activity android:name=".CabeActivity" />
+        <activity android:name=".TomatActivity" />
+        <activity android:name=".KentangActivity" />
+        <activity android:name=".TimunActivity" />
+        <activity android:name=".SawiActivity" />
+        <activity android:name=".TerongActivity" />
+        <activity android:name=".WortelActivity" />
+        <activity android:name=".BlueberryActivity" />
+        <activity android:name=".NanasActivity" />
+        <activity android:name=".ManggaActivity" />
+        <activity android:name=".AnggurActivity"></activity>
     </application>
 
 </manifest>

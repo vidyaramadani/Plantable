@@ -1,13 +1,154 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="id.sch.smktelkom_mlg.project.xirpl501101928.plantable.SayurFragment">
 
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/bawang" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/btnbawang"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:text="Ini Sayur" />
-</FrameLayout>
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="100dp"
+        android:text="BAWANG" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/bayam" />
+
+    <Button
+        android:id="@+id/btnbayam"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:text="BAYAM" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/cabe" />
+
+    <Button
+        android:id="@+id/btncabe"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="100dp"
+        android:text="CABE" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="150dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/tomat" />
+
+    <Button
+        android:id="@+id/btntomat"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="250dp"
+        android:text="TOMAT" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/kentang" />
+
+    <Button
+        android:id="@+id/btnkentang"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:text="KENTANG" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="150dp"
+        app:srcCompat="@drawable/timun" />
+
+    <Button
+        android:id="@+id/btntimun"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="250dp"
+        android:text="TIMUN" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="300dp"
+        app:srcCompat="@drawable/sawi" />
+
+    <Button
+        android:id="@+id/btnsawi"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="400dp"
+        android:text="SAWI" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        app:srcCompat="@drawable/terong" />
+
+    <Button
+        android:id="@+id/btnterong"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:text="TERONG" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="300dp"
+        app:srcCompat="@drawable/wortel" />
+
+    <Button
+        android:id="@+id/btnwortel"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="400dp"
+        android:text="WORTEL" />
+
+</RelativeLayout>

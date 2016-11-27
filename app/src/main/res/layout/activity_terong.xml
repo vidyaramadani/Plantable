@@ -1,13 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_terong"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="id.sch.smktelkom_mlg.project.xirpl501101928.plantable.TerongActivity">
+    android:layout_height="match_parent">
 
-</RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/activity_terong"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="id.sch.smktelkom_mlg.project.xirpl501101928.plantable.SemangkaActivity">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="
+        Terung (Solanum melongena, di Pulau Jawa lebih dikenal sebagai terong) adalah tumbuhan penghasil buah yang dijadikan sayur-sayuran. Asalnya adalah India dan Sri Lanka. Tanaman ini tumbuh hingga 40–150 cm (16-57 inci) tingginya. Daunnya besar, dengan lobus yang kasar. Ukurannya 10–20 cm (4-8 inci) panjangnya dan 5–10 cm (2-4 inci) lebarnya.
+        Terong unggu merupakan jenis terong yang banyak di budidayakan di Indonesia, karena harga jual yang tinggi dan juga permintaan yang sangat banyak. Memiliki bentuk bulat memanjang, berwarna unggu mengkilap, memiliki kulit tipis, dan juga memiliki ujung tumpul. Selain itu, tangkai pada batang terong memiliki panjang sekitar 3-5 cm dan hampir menyerupai mahkota.
+        Terong telunjuk banyak di kenali dan populer di masyarakat. Kandungan di dalam terong ini sangat tinggi dan baik untuk kesehatan tubuh. Memiliki bentuk menyerupai telunjuk manusia, berwrna hijau mudah, memiliki garis berwrna putih, tangkai berwrna hijau tua dan kusam dengan panjang 2-3 cm dan memiliki daging lebih relatif sedikit di banding terong unggu. Umumnya berat terong terong telunjuk berkisar 1-2 ons perbuah.
+        Terong belanda banyak di gemari dan di sukai banyak orang, karena terong ini biasa di buat jus dan olahan lainnya dan memiliki manfaat dan besar dan tinggi baik untuk kesehatan tubuh. Terong ini memiliki bentuk bulat, memiliki daging banyak, berwrna kemerahan, daging berwarna kekuningan dan kemerahan, dan memiliki biji yang sangat banyak. Biji tanaman ini berwrna hitam dan juga kecokatan, mengkilap dan juga berlendir.
+        Terong putih merupakan terong yang sangat di gemari juga, karena memiliki kenikmatan tersendiri. Berupa olahan dari masakan dan olahan lainnya, memiliki asupan gizi yang tinggi dan sangat baik untuk kesehatan. Terong ini memiliki bentuk beragam mulai dari bentuk bulat telur dan juga bulat lonjong berwrna putih, memiliki daging banyak berwrna putih, memiliki biji yang banyak berwrna hitam dan kecoklatan mengkilap dan berlendir sedikit.
+        Terong pipit merupakan terong yang di gemari dan di sukai masyarakat, karena biasaya di olah sebagai bahan tambahan masakan. Terong ini memiliki bentuk relatif kecil, berwarna hijau muda, bertangkai pendek, memiliki biji banyak tetapi kecil dan berwarna kehijauan hingga kecoklatan dan berlendir.
+       " />
+
+    </RelativeLayout>
+</ScrollView>

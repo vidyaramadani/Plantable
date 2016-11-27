@@ -1,13 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_timun"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="id.sch.smktelkom_mlg.project.xirpl501101928.plantable.TimunActivity">
+    android:layout_height="match_parent">
 
-</RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/activity_timun"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="id.sch.smktelkom_mlg.project.xirpl501101928.plantable.SemangkaActivity">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="
+            Mentimun, timun, atau ketimun(Cucumis sativus L.; suku labu-labuan atau Cucurbitaceae) merupakan tumbuhan yang menghasilkan buah yang dapat dimakan. Mentimun dapat ditemukan di berbagai hidangan dari seluruh dunia dan memiliki kandungan air cukup banyak di dalamnya sehingga berfungsi menyejukkan.
+            Potongan buah mentimun juga digunakan untuk membantu melembabkan wajah serta banyak dipercaya dapat menurunkan tekanan darah tinggi. Jenis mentimun dikelompokkan menjadi 2 golongan, yaitu mentimun yang pada buahnya terdapat bintik-bintik di bagian pangkalnya dan mentimun yang buahnya halus (tidak berbintik-bintik).
+            Mentimun yang berbintik-bintik dibedakan 3 macam, yaitu mentimun biasa, watong, dan wuku. Mentimun biasa ditandai dengan penampilan kulit buah yang tipis, lunak dan pada saat buah muda berwarna hijau keputih-putihan tetapi setelah tua berwarna kuning tua. Mentimun yang buahnya tidak berbintik-bintink atau krei, dibedakan 2 macam yaitu mentimum krei dan mentimun suri.
+            Mentimun krei buahnya besar dan cita rasanya seperti mentimun biasa sedangkan mentimun suri ukuran buahnya besar sekali, bentuknya lonjong, rasanya manis renyah dan umumnya dipanen buah tua (masak) untuk bahan pencampur minuman.
+            " />
+
+    </RelativeLayout>
+</ScrollView>

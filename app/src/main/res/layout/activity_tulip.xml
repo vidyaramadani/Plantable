@@ -1,13 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_tulip"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="id.sch.smktelkom_mlg.project.xirpl501101928.plantable.TulipActivity">
+    android:layout_height="match_parent">
 
-</RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/activity_tulip"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="id.sch.smktelkom_mlg.project.xirpl501101928.plantable.SemangkaActivity">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="
+             Tulip (bahasa Latin: Tulipa) merupakan nama genus untuk 100 spesies tumbuhan berbunga yang termasuk ke dalam keluarga Liliaceae. Tulip berasal dari Asia Tengah, tumbuh liar di kawasan pegunungan Pamir dan pegunungan Hindu Kush dan stepa di Kazakhstan. Negeri Belanda terkenal sebagai negeri bunga tulip. Tulip juga merupakan bunga nasional Iran dan Turki.
+             jenisnya:
+                Bunga Tulip Apricot Beberapa jenis kembang tulip nan mempunyai kembang lebih dahulu ialah jenis single early dengan mahkota nan berlapis indah. Bunga ini secara unik hanya memiliki enam daun nan berupa mahkota.
+                Bunga Tulip Double Early Bunga tulip dengan jenis double early merupakan jenis tulip nan kuat dan berbatang besar. Tinggi dari kembang tulip nan masuk dalam jenis ini ialah sekitar 20 hingga 30 cm. Sedangkan jenis kembang tulip nan masuk dalam spesies ini ialah peach blossoms .
+                Kaufmaniana Jenis tulip ini sedikit lebih unik, sebab ia berasal dari Turkestan. Sebagaimana tulip lainnya, tinggi dari batang tulip ini ialah sekitar 20 hingga 30 cm. Bunga tulip jenis ini dapat berbunga di bulan Maret, saat kembang nan lainnya belum mekar. Bunganya memiliki karakter nan pendek dengan kelopak lebar dan terbuka siap menerima cahaya matahari.
+                Fosteriana Jenis tulip nan satu ini berasal dari Asia Tengah. Ia bisa berbunga pada bulan April. Tanaman ini memiliki tinggi nan cukup, yaitu sekitar 20 hingga 52 cm. Apabila menginginkan jenis kembang ini, maka contoh nan tepat ialah purissisama.
+                Bunga Tulip Triumph Jenis kembang nan mengembang dengan kriteria sedikit terlambat ialah Triumph. Ciri fisik dari kembang ini ialah memiliki bentuk bulat sedikit menyerupai telur, dan dapat kuat bertahan dalam berbagai keadaan.
+                Bunga Tulip Darwin Hybird Bunga tulip jenis ini mempunyai keunikan dari segi ukurannya nan cukup besar. Sehingga sangatlah sinkron apabila dipakai sebagai kembang potong. Selain itu, keunggulan lainnya dari kembang tulip jenis ini ialah pemeliharaannya nan begitu mudah.
+                Bunga Tulip Greigii Jenis kembang tulip nan satu ini ialah kembang tulip dengan ukuran nan lebar, dengan kelopaknya nan terbuka. Selain itu, dasar kembang biasanya berwarna gelap sehingga membuat siapa pun merasa tertarik buat menanamnya. Bunga tulip jenis ini asalnya sebenarnya dari Turkestan.
+                Bunga Tulip Double Late Bunga tulip jenis ini mempunyai daun mahkota kembang nan besar-besar dan tampak bersusun-susun. Sehingga dijuluki double late. Susunan mahkota kembang ini tampak indah. Bunga tulip ini tak tahan terhadap hujan ataupun cuaca lainnya nan cukup ekstrim. Misalnya, tak tahan terhadap angin kencang. Bunga tulip jenis double late ini berbunga di akhir bulan April.
+
+               " />
+
+    </RelativeLayout>
+</ScrollView>

@@ -8,6 +8,32 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="id.sch.smktelkom_mlg.project.xirpl501101928.plantable.ApelActivity">
+    tools:context="id.sch.smktelkom_mlg.project.xirpl501101928.plantable.PisangActivity">
 
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="
+       Apel adalah jenis buah-buahan, atau buah yang dihasilkan dari pohon buah apel. Buah apel biasanya berwarna merah kulitnya jika masak dan (siap dimakan), namun bisa juga kulitnya berwarna hijau atau kuning.
+       Kulit buahnya agak lembek, daging buahnya keras. Buah ini memiliki beberapa biji di dalamnya.Orang mulai pertama kali menanam apel di Asia Tengah.
+       Kini apel berkembang di banyak daerah di dunia yang suhu udaranya lebih dingin. Nama ilmiah pohon apel dalam bahasa Latin ialah Malus domestica.
+       Apel budidaya adalah keturunan dari Malus sieversii asal Asia Tengah, dengan sebagian genom dari Malus sylvestris (apel hutan/apel liar).
+       Kebanyakan apel bagus dimakan mentah-mentah (tak dimasak), dan juga digunakan banyak jenis makanan pesta.
+       Apel dimasak sampai lembek untuk dibuat saus apel. Apel juga dibuat untuk menjadi minuman sari buah apel.
+
+           Apel Manalagi = Tanaman Apel Manalagi berasal dari Pegunungan Caucasus di Asia Barat dan Eropa Timur. Namun untuk apel jenis Manalagi berasal dari Desa Gandon, Kecamatan Batu, Malang.
+           Apel Fuji = Apel Fuji pertama kali dikembangkan di Jepang pada era 1930-an.  Sejak diperkenalkan, Apel Fuji langsung populer di Jepang, Korea, Tiongkok, dan Amerika Serikat. Hal ini karena Apel Fuji memiliki rasa yang sangat lezat dan memiliki kandungan antioksidan yang tinggi di dalamnya.
+           Apel Golden delicious = Apel ini berasal dari Amerika. Warna kulitnya kuning, daging buah sedikit keras, berair, dan rasanya sedikit asam. Apel ini enak untuk dimakan ketika segar, dibuat menjadi pai, dan saus apel.
+           Apel Rome Beauty = Apel ini banyak dibudidayakan di Malang dan terkenal sebagai Apel Malang. Apel Rome Beauty memiliki karakteristik kulit yang berwarna hijau dengan semburat merah, rasanya manis, dan warna dagingnya putih kehijauan.
+           Apel Princess Noble = Apel ini disebut juga apel hijau atau Apel Australia. Ciri-ciri ulit buah yang hijau kekuningan, berbentuk agak bulat dengan lekukan di bagian ujung relatif dalam.
+           Apel Anna = Apel ini merupakan apel favorit dari Batu, Malang. Bentuk dan warnanya mirip apel impor. Warna kulitnya merah tua dan bisa merata.
+           Apel Royal gala = Apel royal gala berasal dari Selandia Baru. Warna kulitnya kuning dengan garis-garis berwarna merah jambu, berair, daging buah keras, manis, dan beraroma tajam.
+           Apel Washington = Apel ini berasal dari Amerika. Cirinya yakni warna kulitnya merah bergaris-garis. Daging buahnya lunak dan rasanya manis sedikit asam.
+
+
+         " />
 </RelativeLayout>

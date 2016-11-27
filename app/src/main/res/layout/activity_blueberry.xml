@@ -17,5 +17,10 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:text=" " />
+        android:text="
+        Blueberry adalah tanaman berbunga dalam genus Vaccinium, bagian Cyanococcus. Spesies ini tumbuh di Amerika Utara. Berupa semak yang ukurannya mulai 10 cm hingga 4 m;
+        spesies terkecil dikenal sebagai'bluberry semak rendah' (sama dengan liar), dan spesies terbesar adalah 'blueberry semak tinggi'. Daunnya berganti atau hijau sepanjang tahun, ovate hingga lanceolate, dan mulai 1–8 cm panjangnya dan lebar 0.5-3.5 cm.
+        Bunganya berbentuk bel, putih, merah atau merah muda pucat, kadang-kadang kehijau-hijauan. Semua spesies yang nama umum Inggrisnya meliputi “blueberry” dikelompokkan dalam bagian Cyanococcus dari genus
+        Vaccinium. Beberapa tanaman lain dari genus Vaccinium juga memproduksi beri biru yang terkadang mirip dengan blueberry, terutama bilberry Eropa (Vaccinium myrtillus), yang dalam banyak bahasa memiliki nama yang berarti “blueberry” dalam bahasa Inggris.
+        Meskipun bluberry adalah tumbuhan asli di Amerika Utara, mereka juga tumbuh di Belahan Selatan di Australia, Selandia Baru dan negara-negara Amerika Selatan, dan dikirim melalui udara sebagai produksegar untuk pasar-pasar di seluruh dunia." />
 </RelativeLayout>

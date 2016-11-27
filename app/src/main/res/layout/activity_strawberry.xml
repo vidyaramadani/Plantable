@@ -8,6 +8,23 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="id.sch.smktelkom_mlg.project.xirpl501101928.plantable.StrawberryActivity">
+    tools:context="id.sch.smktelkom_mlg.project.xirpl501101928.plantable.PisangActivity">
 
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="
+        Walaupun banyak orang menyebut strawberry sebagai buah, namun menurut catatan di wikipedia, strawberry sebenarnya bukanlah buah sejati. Tidak seperti blueberry dan cranberry, srtawberry adalah buah palsu dimana biji buahnya bukan berada dalam daging buah, melainkan tersebar merata pada permukaan buah. Saat masih berkembang buah ini berwarna putih kehijauan, dan ketika masak akan berwarna merah terang.
+        Jenisnya:
+        Strawberry Ungu (Purple Wonder) ini dinamakan Purple Wonder oleh penemunya Prof Courtney Weber dari Cornell University, Purple Wonder memiliki rasa yang sangat manis dan juga dengan aroma Strawberry yang kuat, dan buah ini akan semakin manis dan lezat apabila matang di pohon. Strawberry berukuran sedang ini pertama muncul berwarna putih lalu berubah warnanya menjadi merah dan terakhir berwarna ungu tua.
+        Strawberry Putih (Pineberry) ini di namakan Pineberry atau Snow White karena warnanya yang putih, Strawberry ini merupakan hasil perkawinan silang antara stawberry fragaria dan nanas ananassa sehingga rasa dari strawberry ini menghasilkan rasa nanas yang sangat kuat. Untuk Harga Strawberry ini di hargai sekitar US$4,5 sampai US$7,9 per 125 gramnya.
+        Strawberry Kuning (Alphine Yellow Wonder) ini banyak tumbuh liar di daratan eropa, dengan bunga berwarna putih seperti strawberry yang lain, Ukuran dari strawberry ini lebih kecil daripada strawberry yang lain. Buahnya berwarna putih kekuningan dan dengan biji berwarna kuning, dan strawberry ini memiliki rasa yang paling enak di banding dengan strawberry jenis lain, tanaman jenis ini tumbuh di tanah yang kering dengan intensitas matahari yang penuh
+        Strawberry Hitam atau biasa di sebut black strawberry memiliki rasa yang lezat dengan kandungan gula dan asam yang rendah, strawberry ini hidup di lingkungan atau suhu yang kurang lebih sama dengan strawberry merah
+        Strawberry Hijau (Green Strawberry) Ada 2 jenis Varian dari Stawberry hijau ini, pertama strawberry hijau yang berasal dari eropa atau Fragaria Viridis, dimana strawberry jenis ini tidak berubah warna baik saat masih muda/mentah ataupun matang, aroma strawberry hijau ini kurang keluar dibanding dengan aroma strawberry merah.  Varietas strawberry yang kedua adalah strawberry hijau varietas mentah, dan belum matang, dimana varietas strawberry hijau mentah ini banyak dijadikan bahan baku kuliner yang berkembang sekarang ini.
+        Strawberry Merah ini sudah umum kita lihat dan juga kita nikmati buahnya, strawberry jenis ini mempunyai rasa asam asam manis, tapi untuk yang jenis kualitas terbaik, rasa manisnya lebih terasa dan dominan tetapi tidak meninggalkan rasa masamnya.
+" />
 </RelativeLayout>

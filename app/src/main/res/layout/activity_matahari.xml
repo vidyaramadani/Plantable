@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
     android:id="@+id/activity_matahari"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -8,6 +12,26 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="id.sch.smktelkom_mlg.project.xirpl501101928.plantable.MatahariActivity">
+        tools:context="id.sch.smktelkom_mlg.project.xirpl501101928.plantable.JerukActivity">
 
-</RelativeLayout>
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="
+            Bunga matahari (Helianthus annuus L.) adalah tumbuhan semusim dari suku kenikir-kenikiran (Asteraceae) yang populer, baik sebagai tanaman hias maupun tanaman penghasil minyak. Bunga tumbuhan ini sangat khas: besar, biasanya berwarna kuning terang, dengan kepala bunga yang besar (diameter bisa mencapai 30 cm).
+            Bunga ini sebetulnya adalah bunga majemuk, tersusun dari ratusan hingga ribuan bunga kecil pada satu bongkol. Bunga Matahari juga memiliki perilaku khas, yaitu bunganya selalu menghadap / condong ke arah matahari atau heliotropisme. Orang Perancis menyebutnya tournesol atau 'pengelana Matahari'. Namun, sifat ini disingkirkan pada berbagai kultivar baru untuk produksi minyak karena memakan banyak energi dan mengurangi hasil.
+            jenisnya:
+            Teddy Bear = Tingginya cuma sejengkal, tingginya 60 cm sd  90 cm, diameter 17 cm cuma 25-30 cm tingginya, diameter bunga sekitar 8 cm.
+            Big Smile = Penanaman dipot 17 cm diameter bunga bisa 10 cm, tinggi 30 cm. Bisa terdapat 4-5 kuntum bunga yang mekar pada satu tanaman.
+            Fiesta Del Sol = ' Dwarf Tithonia Rotundifolia' pemenang All American Selection tahun 2000. Tinggi tanaman 50 - 60 cm, diameter bunga 5 - 7 cm, waktu sampai berbunga 70 - 80 hari. Bisa terdapat banyak bunga pada satu tanaman
+            Giant Sungold = Penanaman menggunakan polybag diameter 20 cm tinggi tanaman sekitar 1 meter dengan diameter bunga sekitar 15 cm, waktu sampai berbunga 65 - 75 hari.
+            Music Box = Bunga matahari dwarf yang warna bunganya bermacam-macam. Tinggi tanaman 40 - 50 cm, diameter bunga 10 - 13 cm, waktu sampai berbunga 65 - 75 hari.
+            Red Sun = Bunga matahari dengan tinggi tanaman 150 - 170 cm, diameter bunga 12 - 15 cm, waktu sampai berbunga 65 - 75 hari.
+            Velvet Queen = Bunga matahari berwarna coklat kemerahan. Tinggi tanaman 150 - 170 cm, diameter bunga 12 - 15 cm, waktu sampai berbunga 65 - 75 hari.Bisa terdapat 6-9 kuntum bunga pada satu tanaman
+            Moonwalker = Bunga matahari dengan warna bunga kuning pucat. Tinggi tanaman 150 - 170 cm, diameter bunga sekitar 15 cm, waktu sampai berbunga 65 - 75 hari.
+
+                  " />
+
+    </RelativeLayout>
+</ScrollView>

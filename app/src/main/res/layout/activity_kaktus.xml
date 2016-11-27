@@ -1,13 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_kaktus"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="id.sch.smktelkom_mlg.project.xirpl501101928.plantable.KaktusActivity">
+    android:layout_height="match_parent">
 
-</RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/activity_kaktus"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="id.sch.smktelkom_mlg.project.xirpl501101928.plantable.JerukActivity">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="
+                Kaktus adalah nama yang diberikan untuk anggota tumbuhan berbunga famili Cactaceae. Kaktus dapat tumbuh pada waktu yang lama tanpa air. Kaktus biasa ditemukan di daerah-daerah yang kering (gurun). Kata jamak untuk kaktus adalah kakti.[2] Kaktus memiliki akar yang panjang untuk mencari air dan memperlebar penyerapan air dalam tanah. Air yang diserap kaktus disimpan dalam ruang di batangnya.
+                Kaktus juga memiliki daun yang berubah bentuk menjadi duri sehingga dapat mengurangi penguapan air lewat daun. Oleh sebab itu, kaktus dapat tumbuh pada waktu yang lama tanpa air.
+                jenisnya:
+                     Ariocarpus = Bentuk kaktus ini cukup unik, daunnya berbentuk prisma. Dan setiap jenis bentuk daunnya berbeda.
+                     Astrophytum = Disebut Astrophytum karena sosoknya sepintas menyempai bintang. Kaktus ini berasal dari Meksiko, namun sekarang berkembang di Jepang. Kaktus ini banyak sekali jenisnya, mencapai 100 jenis.
+                     Cephalocereus Senilis = Kaktus yang unik ini diberi julukan old man cactus. Diberi nama demikian karena bentuk badannya mirip kepala manusia, dan seluruh permukaannya tertutup rambut panjang terjurai berwarna putih seperti uban yang awut-awutan, menggambarkan rambut orang tua.
+                     Echinofossulocactus = Ciri khas dari kaktus ini adalah rib-nya tipis dan meliuk-liuk membungkus seluruh tubuhnya. Warna batangnya hijau tua dilengkapi duri-duri yang mencolok. Pertumbuhannya lambat, tetapi tergolong cepat mengeluarkan bunga. Dalam waktu 3 tahun saja kaktus ini sudah mempersembahkan bunganya yang cantik.
+                     Ferocactus = Ferocactus adalah kependekan dari Ferocious cactus (kaktus buas). Dinamakan demikian gara-gara ia mempunyai duri yang besar, kuat, dan tajam. Umumnya kaktus menarik karena bentuk badan dan bunganya. Namun pada Ferocactus duri yang menjadi daya tarik utamanya. Duri yang besar dan kokoh memenuhi seluruh permukaan tubuhnya.
+                     Golden Barrel = Dinamakan golden barrel karena memang bentuknya seperti gentong besar, dengan duri-duri besar, kuat, tajam, dan berwarna kuning emas. Di Indonesia kaktus yang bernama latin Echinocactus grusonii ini oleh penggemarnya dinamakan kaktus bola emas dan tak jarang menjadi koleksi kebanggaan.
+                     Opuntia = Kaktus yang berbentuk seperti centong (sendok nasi) ini sudah sangat dikenal masyarakat. Jenisnya cukup banyak, hanya saja yang banyak ditemukan di Indonesia adalah opuntia besar yang berwarna keabuan dengan duri panjang yang tajam. Jenis seperti ini oleh pecinta kaktus dianggap ‘biasa’, sebab masih ada opuntia jenis lain yang lebih cantik.
+                     Saguaro = Sosok saguaro sebenarnya sering kita lihat, terutama di film-film koboi, Kaktus raksasa yang berlengan ini memang sering muncul di film-film seperti itu.  Sesuai dengan namanya, Carnegiea gigantea, sosok kaktus ini memang raksasa. Di habitat aslinya, kaktus yang dijadikan simbol dari negara bagian Arizona (Amerika Serikat) ini tingginya bisa mencapai 15 m.
+                     " />
+
+    </RelativeLayout>
+</ScrollView>

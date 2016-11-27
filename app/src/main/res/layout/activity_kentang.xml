@@ -17,18 +17,10 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:text=" Kentang (Solanum tuberosum L.) adalah tanaman dari suku Solanaceaeyang memiliki
-        umbi batang yang dapat dimakan dan disebut kentang pula. Umbi kentang sekarang telah menjadi salah
-        satu makanan pokok penting di Eropa walaupun pada awalnya didatangkan dari Amerika Selatan.Penjelajah
-        Spanyol dan Portugispertama kali membawa ke Eropa dan mengembangbiakkan tanaman ini. Kentang kuning
-        mempunyai umbi dan kuliut yang berwarna kuning. Yang termasuk kentang kuning, antara lain: Eigenheimer,
-        Patrones, Rapan, Thung, dan Granola. Kentang kuning paling banyak disenangi karena rasa umbinya enak,
-        gurih, dan tidak banyak mengandung air. Kentang putih mempunyai umbi dan kulit yang berwarna agak putih.
-        Yang tergolong kentang putih ini, antara lain: Donata, Radosa, Matta, Sebago. Kentang merah kulitnya
-        berwarna merah dan daging umbinya berwarna kuning. Yang tergolong kentang merah, antara lain: Desiree,
-        Arka, dan Red Pontiak. Kentang priangan banyak dijumpai di daerah priangan dan sekitarnya. Ukurannya
-        lumbayan besar dan mata umbinya dangkal. Daging kentang priangan berwarna putih. Jika kita bercocok tanam
-        kentang jenis ini biasanya hasilnya kurang memuaskan dan mudah terserang penyakit. Kentang jawa banyak ditemui
-        di daerah jawa, tetapi juga telah menyebar di daerah-daerah lainnya. Dagiung umbi kentang jawa berwarna kuning,
-        rasanya enak, dan mata umbinya dalam. Kentang jawa tahan terhadap penyakit. Kentang jawa sering disebut juga sebagai kentang gunung." />
+        android:text=" Kentang (Solanum tuberosum L.) adalah tanaman dari suku Solanaceaeyang memiliki umbi batang yang dapat dimakan dan disebut kentang pula. Umbi kentang sekarang telah menjadi salah satu makanan pokok penting di Eropa walaupun pada awalnya didatangkan dari Amerika Selatan. Penjelajah Spanyol dan Portugispertama kali membawa ke Eropa dan mengembangbiakkan tanaman ini.
+        Kentang kuning mempunyai umbi dan kuliut yang berwarna kuning. Yang termasuk kentang kuning, antara lain: Eigenheimer, Patrones, Rapan, Thung, dan Granola. Kentang kuning paling banyak disenangi karena rasa umbinya enak, gurih, dan tidak banyak mengandung air.
+        Kentang putih mempunyai umbi dan kulit yang berwarna agak putih. Yang tergolong kentang putih ini, antara lain: Donata, Radosa, Matta, Sebago.
+        Kentang merah kulitnya berwarna merah dan daging umbinya berwarna kuning. Yang tergolong kentang merah, antara lain: Desiree, Arka, dan Red Pontiak.
+        Kentang priangan banyak dijumpai di daerah priangan dan sekitarnya. Ukurannya lumayan besar dan mata umbinya dangkal. Daging kentang priangan berwarna putih.
+        Jika kita bercocok tanam kentang jenis ini biasanya hasilnya kurang memuaskan dan mudah terserang penyakit. Kentang jawa banyak ditemui di daerah jawa, tetapi juga telah menyebar di daerah-daerah lainnya. Dagiung umbi kentang jawa berwarna kuning, rasanya enak, dan mata umbinya dalam. Kentang jawa tahan terhadap penyakit. Kentang jawa sering disebut juga sebagai kentang gunung." />
 </RelativeLayout>

@@ -17,13 +17,15 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:text=" Wortel adalah tumbuhan biennial (siklus hidup 12 - 24 bulan) yang menyimpan karbohidrat
-        dalam jumlah besar untuk tumbuhan tersebut berbunga pada tahun kedua. Batang bunga tumbuh setinggi sekitar 1 m,
-        dengan bunga berwarna putih, dan rasa yang manis langu. Bagian yang dapat dimakan dari wortel adalah bagian
-        umbi atau akarnya. Jenis wortel imperator memiliki bentuk bulat dan panjang. Selain itu golongan wortel ini
-        sedikit tipis, meruncing seperti kerucut dan memiliki warna oranye. Jenis chantenay memiliki bentuk tebal, meruncing
-        dengan ujung tumpul serta panjang sekitar 5 inci. Jenis nantes merupakan gabungan antara wortel berjenis Imperator dan
-        chantenay. Memiliki ukuran yang sedang, berwarna oranye gelap, tumpul, dan berdiameter sama dari atas hingga bawah.
+        android:text="
+        Wortel adalah tumbuhan biennial (siklus hidup 12 - 24 bulan) yang menyimpan karbohidrat dalam jumlah besar untuk tumbuhan tersebut berbunga pada tahun kedua.
+        Batang bunga tumbuh setinggi sekitar 1 m, dengan bunga berwarna putih, dan rasa yang manis langu.
+        Bagian yang dapat dimakan dari wortel adalah bagian umbi atau akarnya.
+        Jenis wortel imperator memiliki bentuk bulat dan panjang.
+        Selain itu golongan wortel ini sedikit tipis, meruncing seperti kerucut dan memiliki warna oranye.
+        Jenis chantenay memiliki bentuk tebal, meruncing dengan ujung tumpul serta panjang sekitar 5 inci.
+        Jenis nantes merupakan gabungan antara wortel berjenis Imperator dan chantenay.
+        Memiliki ukuran yang sedang, berwarna oranye gelap, tumpul, dan berdiameter sama dari atas hingga bawah.
         Jenis nates memiliki kandungan air yang lebih tinggi dari wortel lainnya, sehingga rasa manis wortel jenis ini akan
         berkurang jika dimasak." />
 </RelativeLayout>

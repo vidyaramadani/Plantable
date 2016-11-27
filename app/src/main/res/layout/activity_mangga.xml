@@ -1,13 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_mangga"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="id.sch.smktelkom_mlg.project.xirpl501101928.plantable.ManggaActivity">
+    android:layout_height="match_parent">
 
-</RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/activity_mangga"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="id.sch.smktelkom_mlg.project.xirpl501101928.plantable.JerukActivity">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="
+            Mangga atau mempelam adalah nama sejenis buah, demikian pula nama pohonnya. Mangga termasuk ke dalam marga Mangifera, yang terdiri dari 35-40 anggota dan suku Anacardiaceae. Nama ilmiahnya adalah Mangifera indica.
+            Pohon mangga termasuk tumbuhan tingkat tinggi yang struktur batangnya (habitus) termasuk kelompok arboreus, yaitu tumbuhan berkayu yang mempunyai tinggi batang lebih dari 5 m. Mangga bisa mencapai tinggi 10–40 m.
+            Nama ini berasal dari Malayalam maanga. Kata ini dipadankan dalam bahasa Indonesia menjadi mangga; dan pada pihak lain, kata ini dibawa ke Eropa oleh orang-orang Portugis dan diserap menjadi manga (bahasa Portugis), mango (bahasa Inggris) dan lain-lain. Nama ilmiahnya sendiri kira-kira mengandung arti: “(pohon) yang berbuah mangga, berasal dari India”.
+            jenisnya:
+                Mangga indramayu termasuk mangga yang sudah sangat terkenal di Indonesia, terutama di daerah Indramayu itu sendiri. Mangga indramayu yang terkenal bernama mangga cengkir indramayu, mangga ini memiliki ukuran yang besar dan daging yang tebal. Rasanya yang enak dan manis inilah yang membuat mangga indramayu lebih terkenal dibanding mangga dari daerah lainnya.
+                Mangga malgova juga merupakan salah satu jenis mangga yang ditanam di Indonesia. Mangga ini berbentuk  bulat, sedikit elips seperti bentuk apel. Mangga malgova memiliki warna kulit hijau tua dengan semburat warna merah dan ditutupi lapisan lilin. Daging buahnya cukup tebal, berwarna kuning muda, dan mengandung banyak air. Mangga malgova memiliki rasa yang asam apabila masih muda, tetapi jika dipetik saat sudah matang rasanya tidak begitu asam.
+                Mangga chokanan atau Chauk anan merupakan buah mangga yang berasal dari Thailand. Buah tropis ini memiliki kualitas yang sama baik nya dengan buah mangga jenis lainnya. Memiliki warna kulit yang kuning, dan bentuk besar dan panjang serta rasanya yang manis, renyah dan daging yang tebal. Tak heran jika buah mangga chokanan ini sering kali dijumpai dinegara-negara lain.
+                Mangga manalagi memiliki rasa perpaduan antara mangga golek dan mangga harumanis. Mangga ini memiliki ukuran lebih kecil dari mangga golek, warna kulit buah mangga manalagi yang masih muda hijau dan apabila matang juga masih hijau tetapi agak keabuan. Kulit mangga yang satu ini juga dipenuhi dengan bintik-bintik putih yang jumlahnya jauh lebih banyak jika dibandingkan dengan jenis mangga lainnya. Mangga ini memiliki rasa yang manis dengan daging yang tebal, padat dan berserat.
+                Mangga harumanis merupakan mangga yang berasal dari Probolinggo Jawa Timur. Rasanya yang harum dan manis dikala matang inilah yang menajdi ciri khas harum manis sesuai dengan namanya harum dan manis. Buahnya berbentuk jorong, berparuh sedikit, dan ujungnya meruncing. Buah yang telah tua berkulit hijau tua tertutup lapisan lilin sehingga warnanya seperti hijau kelabu. Pada buah yang sudah masak, pangkalnya berwarna hijau kekuningan dengan ketebalan.
+                Mangga Golek india mempunyai bentuk panjang meruncing tapi tidak berparuh, rasanya manis dan ketika matang kulitnya tetap berwarna hijau. Buah mangga golek india memiliki daging yang tebal rasanya manis dan harum yang tajam, warna kuning tua, lunak, tak berserat, dan jika diiris banyak mengeluarkan air. Mangga golek india ini sudah terkenal di daerah Jawa Barat.
+                Mangga Gedong gincu berasal dari daerah cirebon, namanya cukup unik, warna kulit serta daging buahnya didominasi dengan warna kuning kemerahan dan tampak mencolok, sehingga tampak cantik dan menarik. Kulitnya tipis bentuknya bulat tanpa lekukan, daging tebal dan berserat halus rasanya manis dan harum. Buah mangga gedong gincu ini juga cukup terkenal dan laris di pasaran luar negeri.
+                Mangga falan juga merupakan mangga yang berasal dari Thailand. Buah mangga ini memiliki rasa manis renyah kayak crispy. bentuknya panjang sedikit meruncing dan berwarna hijau. nama lain mangga fa lan adalah mangga thunder. Pohon mangga Falan tumbuh dengan ketinggian relatif rendah, mambentuk kanopi terbuka dan akan mulai berbuah umur 2 tahun dari bibit.
+                Mangga madu anggur biasa tumbuh di dataran rendah dan mudah dibudidayakan, Buahnya mempunyai bentuk bulat panjang, agak sedikit berparuh dan berlekuk sedangkan warna kulitnya hijau tua dengan ditandai bintik kelenjar berwarna putih kehijauan dan ditutupi lapisan lilin. Dagingnya cukup tebal dan manis. Rasanya benar-benar lezat, segar, dan mantap.
+                Mangga endog memiliki buah yang kecil seperti telur. Buah ini memiliki permukaan kulit yang halus dengan lapisan lilin. Kulitnya berwarna hijau dengan bintik-bintik putih. Sayangnya buah ini memiliki aroma yang kurang dan rasa yang kurang manis. Sehingga buah jenis ini biasa digunakan untuk manisan.
+
+
+                  " />
+
+    </RelativeLayout>
+</ScrollView>

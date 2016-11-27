@@ -8,6 +8,26 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="id.sch.smktelkom_mlg.project.xirpl501101928.plantable.BawangActivity">
+    tools:context="id.sch.smktelkom_mlg.project.xirpl501101928.plantable.PisangActivity">
 
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="
+        Bawang merupakan istilah umum bagi sekelompok tumbuhan penting bagi manusia yang termasuk dalam genus Allium. Umbi, daun, atau bunga bawang dimanfaatkan sebagai sayuran atau sebagai rempah-rempah, tergantung bagaimana kita memandangnya.
+        Bawang merah (Allium cepa var ascalonicum (L) Back) merupakan sejenis tanaman yang menjadi bumbu berbagai masakan di dunia, berasal dari Iran, Pakistan, dan pegunungan-pegunungan di sebelah utaranya, kemudian dibudidayakan di daerah dingin, sub-tropis maupun tropis. Umbi bawang dapat dimakan mentah, untuk bumbu masak, acar, obat tradisional, kulit umbinya dapat dijadikan zat pewarna dan daunnya dapat pula digunakan untuk campuran sayur.
+        Red Onion atau dikenal sebagai Bawang Merah besar ini memiliki ukuran lebih besar dari bawang merah/shallot, dan memiliki daging tebal layaknya bawang bombai. Bahkan bawang merah besar ini memiliki aroma paling tajam dibanding bawang jenis lain dan memili rasa pedas.
+        Bawang Bombai adalah jenis bawang yang paling banyak dan luas dibudidayakan, dipakai sebagai bumbu maupun bahan masakan, berbentuk bulat besar dan berdaging tebal. Bawang bombai memiliki aroma yang khas bila dibanding dengan bawang merah biasa, umbinya terbentuk dari lapisan-lapisan daun yang membesar dan bersatu.
+        Sweet Onion atau dikenal dengan nama Vidalias karena tumbuh subur di kota Vidalia, Georgia. Vidalias adalah jenis yang paling umum dari bawang manis. Bawang ini kurang tajam, rasanya benar-benar manis sehingga ada yang menyebutnya Potato Onion.
+        Banyak yang tidak mampu membedakan bawang bombai (Yellow Onion) dengan White Onion karena selain bentuknya sama, warnanya agak mirip.Bawang ini cenderung memiliki aroma yang lebih tajam dan rasa lebih manis dari bawang kuning/Bombai. Selain itu, cenderung lebih lembut dan memiliki kulit lebih tipis. Biasanya dimasak seperti bawang bombai.
+        Bawang putih (Allium sativum; bahasa Inggris: garlic) adalah nama tanaman dari genus Allium sekaligus nama dari umbi yang dihasilkan. Mempunyai sejarah penggunaan oleh manusia selama lebih dari 7.000 tahun, terutama tumbuh di Asia Tengah, dan sudah lama menjadi bahan makanan di daerah sekitar Laut Tengah, serta bumbu umum di Asia, Afrika, dan Eropa. Dikenal di dalam catatan Mesir kuno, digunakan baik sebagai campuran masakan maupun pengobatan. Umbi dari tanaman bawang putih merupakan bahan utama untuk bumbu dasar masakan Indonesia.
+        Bawang mutiara memiliki beberapa varietas warna mulai dari kuning, merah, dan putih yang paling banyak ditemukan.
+        Cippolini Onion merupakan bawang berbentuk cakram atau piring terbang yang sedikit kuning, mengingatkan pada pesawat pengunjung dari luar angkasa alias alien. Jenis bawang ini sekali dihidangkan di restoran mewah, tapi saat ini cukup banyak tersedia di supermarket besar.
+        Salah satu bawang paling serbaguna di dunia, daun bawang panjang dan tipis, biasanya tidak lebih gemuk dari jari tangan. Rasanya manis dan ringan dapat digunakan dalam keadaan mentah atau dimasak dan cocok untuk sejumlah masakan.
+
+        " />
 </RelativeLayout>

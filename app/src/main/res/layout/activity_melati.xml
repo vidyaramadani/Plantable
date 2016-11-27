@@ -1,13 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_melati"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="id.sch.smktelkom_mlg.project.xirpl501101928.plantable.MelatiActivity">
+    android:layout_height="match_parent">
 
-</RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/activity_melati"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="id.sch.smktelkom_mlg.project.xirpl501101928.plantable.JerukActivity">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="
+           Melati merupakan tanaman bunga hias berupa perdu berbatang tegak yang hidup menahun. Melati merupakan genus dari semak dan tanaman merambat dalam keluarga zaitun (Oleaceae). Terdiri dari sekitar 200 spesies tumbuhan asli daerah beriklim tropis dan hangat dari Eurasia, Australasia dan Oseania. Melati secara luas dibudidayakan untuk aroma khas bunga mereka. Di Indonesia, salah satu jenis melati dijadikan sebagai 'puspa bangsa' atau simbol nasional yaitu melati putih (Jasminum sambac), karena bunga ini melambangkan kesucian dan kemurnian, serta dikaitkan dengan berbagai tradisi dari banyak suku di negara ini. Bunga ini merupakan suatu keharusan hiasan rambut pengantin dalam upacara perkawinan berbagai suku di Indonesia, terutama suku Jawa dan Sunda.
+           Jenisnya:
+            Melati putih (Jasminum sambac) jenis melati ini merupakan jenis melati yang banyak dibudidayakan maupun dijadikan tanaman hias. Bunga melati putih memiliki bunga berwarna putih mungil dan memiliki bunga yang harum. Karena wanginya yang harum, bunga melati putih banyak digunakan untuk riasan pada pengantin (pucuk melati), dan digunakan untuk campuran teh.
+            Melati gambir  (Jasminum elongantum)bentuknya cenderung mirip dengan bunga kamboja putih, namun jika dilihat dari pohonnya dan daunnya sangat berbeda. Sama dengan jenis melati lainnya, melati gambir juga memiliki bau yang harum dan pohon yang lebat. Ukuran bunganya cukup besar.
+            Melati Primrose (Jasminum mensyi / jasminum primulinum) jenis bunga melati yang berwarna selain putih. Dalam bahasa inggris Jasmine Primose, memiliki beberapa sebutan seperti Primose Jasmine, Jepang Primose, atau Yellow Jasmine. Melaati ini miliki nama latin Jasminum mensyi.
+            Melati Multiflorum (Jasminum Multiflorum) ini dikenal dengan melati musim dingin, memiliki bulu halus, memiliki bunga banyak sehingga pada jatuh musim bunga daunnya akan tertutupi oleh bunga serta memiliki bunga yang harum khas melati.
+            Melati casablanca (Jasminum Officinale) termasuk tanaman yang banyak dibudidayakan di banyak tempat terutama oleh para tukang bunga karena bunga ini memiliki aroma harum yang intens. Bunga melati ini memiliki beberapa sebutan, antaralain melati musim panas, melati penyair, melati putih. Melati Jasminum Officinale juga merupakan bunga Nasional Pakistan.
+            Melati pot (Jasminum parkeri dun) dikenal sebagai melati Dwarf. Bunga melati ini memiliki warna kuning. Melati pot merupakan melati semak cemara berkubah, memiliki daun kecil berbentuk oval dan dengan bunga penuh yang berkembang pasa awl musim panas.
+            Melati Bintang (Jasminum simplicifolium) ini digunakan hanya untuk hiasan saja berbeda dengan jenis melati putih yang bisa digunakan sebagai campuran teh.
+                  " />
+
+    </RelativeLayout>
+</ScrollView>

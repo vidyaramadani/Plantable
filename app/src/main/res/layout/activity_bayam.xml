@@ -8,6 +8,19 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="id.sch.smktelkom_mlg.project.xirpl501101928.plantable.BayamActivity">
+    tools:context="id.sch.smktelkom_mlg.project.xirpl501101928.plantable.PisangActivity">
 
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text=" Bayam (Amaranthus spp.) merupakan tumbuhan yang biasa ditanam untuk dikonsumsi
+        daunnya sebagai sayuran hijau. Tumbuhan ini berasal dari Amerika tropik namun sekarang tersebar
+        ke seluruh dunia. Tumbuhan ini dikenal sebagai sayuran sumber zat besi yang penting. Bayam liar
+        tumbuh secara liar,  dapat dijumpal di lahan-lahan kosong tak terurus,  sebgai gulma di lahan
+        pertanian,  atau di tempat-tempat yang lembap,  seperti di tepi selokan. Bayam budidaya memang
+        sengaja dibudidayakan untuk dikonsumsi karena rasa daunnya enak,  empuk,  dan mempunyai kandungan gizi yang tinggi." />
 </RelativeLayout>

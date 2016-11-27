@@ -8,6 +8,31 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="id.sch.smktelkom_mlg.project.xirpl501101928.plantable.CabeActivity">
+    tools:context="id.sch.smktelkom_mlg.project.xirpl501101928.plantable.PisangActivity">
 
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Cabai atau cabai merah atau chili adalah buah dan tumbuhan anggota genus Capsicum.
+        Buahnya dapat digolongkan sebagai sayuran maupun bumbu, tergantung bagaimana digunakan.
+        Sebagai bumbu, buah cabai yang pedas sangat populer di Asia Tenggara sebagai penguat rasa makanan.
+        Secara umum terdapat tiga golongan cabe besar, yaitu cabe merah besar berbentuk lonjong panjang dengan
+        ujung melancip. Kulitnya mulus dan agak tebal seperti mempunyai lapisan lilin. Cabe merah keriting bentuknya
+        panjang dengan diameter yang kecil, ujungnya lancip cenderung runcing. Kulit buahnya tidak mulus melainkan
+        bergelombang atau keriting. Kulit buahnya relatif tipis. Jenis cabe hijau adalah cabe merah besar atau cabe
+        merah keriting yang dipanen saat masih hijau. Untuk daerah-daerah yang memiliki curah hujan dan kelembaban
+        tinggi relatif lebih sulit untuk memanen cabe hingga berwarna merah sempurna. Tanaman cabe ini cukup sensitif
+        terhadap cuaca, hama dan penyakit. Menanam jenis cabe ini memerlukan keterampilan dan pengalaman khusus, terutama
+        untuk partai besar. Modal untuk budidayanya relatif besar. Mungkin karena resiko menanam cabe cukup tinggi,
+        sehingga pada saat-saat bisa saja terjadi kekurangan pasokan. Cabe rawit (Capsium frutescens) memiliki ukuran yang
+        mini, panjangnya sekitar 2-4 cm. Rasa jenis cabe ini relatif lebih pedas dari cabe besar, meski ada beberapa varietas
+        yang kurang pedas. Warna cabe rawit sangat beragam, mulai dari hijau, merah, kuning hingga oranye. Cabe hibrida sebenarnya
+        termasuk dalam golongan cabe besar. Hanya saja sudah mengalami persilangan dan seleksi dengan berbagai teknik pemuliaan modern.
+        Kebanyakan cabe hibrida lebih manja dibanding varietas biasa. Beberapa di antaranya kurang tahan ditanam di lahan terbuka seperti
+        jenis cabe paprika.Cabe hibrida ini mempunyai keunggulan dalam hal produktivitas, bentuk dan ketahanan terhadap penyakit tertentu.
+" />
 </RelativeLayout>

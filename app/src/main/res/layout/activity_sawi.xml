@@ -1,13 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_sawi"
+    android:id="@+id/activity_kentang"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="id.sch.smktelkom_mlg.project.xirpl501101928.plantable.SawiActivity">
+    tools:context="id.sch.smktelkom_mlg.project.xirpl501101928.plantable.PisangActivity">
 
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text=" Sawi adalah sekelompok tumbuhan dari marga Brassica yang dimanfaatkan daun atau
+        bunganya sebagai bahan pangan (sayuran), baik segar maupun diolah. Sawi mencakup beberapa spesies
+        Brassica yang kadang-kadang mirip satu sama lain. Sawi hijau ( Brassica compestris sp. ) merupakan
+        jenis sawi yang sangat populer di budidayakan. Tanaman sawi hijau ini memiliki batang pendek, daun
+        berwarna keputih-putihan, dan juga memiliki rasa pahit. Tanaman ini dapat tumbuh baik dengan temparatur
+        suhu normal, dan juga baik di budidayakan di dataran tinggi yang mengandung bahan organik serta unsur
+        hara yang baik. Sawi putih ( B. Juncea L ) merupakan jenis yang sangat di sukai banyak orang dan juga
+        banyak yang membudidayakan tanaman ini. Tanaman sawi ini memiliki bentuk bunga berwarna kuning cerah,
+        daun berwarna hijau mudah hingga tua, memiliki batang pendek dan tidak memiliki rasa. Tanaman sawi ini
+        dapat di budidayakan di dataran rendah dan dataran tinggi dengan berbagai media, harus memiliki curah
+        hujan baik, media tanam memiliki kandungan organik tinggi, subur da gembur. Dan cahaya matahari yang
+        memadai. Sawi jepun ( Barssica camprestis sp ) merupakan jenis sayuran sawi yang banyak di budidayakan
+        di wilayah tertentu. Tanaman ini memiliki batang pendek berwrna putih, pangkal daun bergaris atau mengkerut
+        kebawah, berwarna hijau muda dan tua. Tanaman ini banyak di budidayakan di wilayah tertentu dengan suhu normal,
+        cahaya matahari memadai, media tanah subur, gembur dan banyak mengandung bahan organik dan memiliki curah
+        hujan yang baik. Sawi pahit ( Brassica juncea var rugosa ) merupakan salah satu jenis tanaman sawi terakhir
+        yang paling populer di indonesia. Tanaman ini selain populer juga memiliki daya jual yang sangat tinggi dan
+        juga mudah di budidayakan. Tanaman ini memiliki daun berwarna hijau muda hingga hijau tua, memiliki batang pendek
+        berwrna putih, bunga berwrna kuning cerah, memiliki biji mengkilap berwrna hitam dan juga memiliki rasa khas pahit.
+        Tanaman sawi pahit ini dapat di budidayakan di dataran rendah dan tinggi, dengan suhu normal, media tanam gembur,
+        subur dan banyak mengandung bahan organik dan juga pertumbuhan yang sangat cepat.." />
 </RelativeLayout>

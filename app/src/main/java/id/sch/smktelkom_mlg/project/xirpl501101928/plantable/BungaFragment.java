@@ -89,10 +89,24 @@ public class BungaFragment extends Fragment {
             }
         });
 
+        getView().findViewById(R.id.btnanggrek).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(), AnggrekActivity.class));
+            }
+        });
+
         getView().findViewById(R.id.btnmatahari).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getActivity(), MatahariActivity.class));
+            }
+        });
+
+        getView().findViewById(R.id.btnsepatu).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(), SepatuActivity.class));
             }
         });
 

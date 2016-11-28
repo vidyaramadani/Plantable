@@ -36,7 +36,9 @@
         <activity android:name=".MatahariActivity" />
         <activity android:name=".KaktusActivity" />
         <activity android:name=".MelatiActivity" />
-        <activity android:name=".TulipActivity"></activity>
+        <activity android:name=".TulipActivity" />
+        <activity android:name=".AnggrekActivity" />
+        <activity android:name=".SepatuActivity"></activity>
     </application>
 
 </manifest>
